@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/Cowsins/Demo/MovementShowroom.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0

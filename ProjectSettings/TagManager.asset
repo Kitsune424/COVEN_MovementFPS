@@ -3,16 +3,32 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Time
+  - Speed
+  - HUD
+  - Status
+  - Spawner
+  - Wall
+  - EventSystem
+  - Start
+  - Handler
+  - UIHandler
+  - Music
+  - Results
+  - Button
+  - Pause
+  - Goal
+  - Camera
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Ground
+  - FPS
   - Water
   - UI
   - Wallrunning
-  - 
+  - FPS2
   - 
   - 
   - 
