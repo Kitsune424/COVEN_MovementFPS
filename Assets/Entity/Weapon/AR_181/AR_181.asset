@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 027390591440f5547b881b31141e8a25, type: 3}
+  m_Name: AR_181
+  m_EditorClassIdentifier: 
+  weaponName: AR181
+  automaticShoot: 1
+  boltAction: 0
+  canReloadAimed: 1
+  reloading: 0
+  fireDistance: 110
+  idleSpread: 50
+  adsSpread: 0.01
+  fireRate: 600
+  damage: 35
+  currentAmmo: 21
+  magSize: 30
+  currentSize: 18
+  maxAmmo: 180
+  EmptyReloadTime: 2.5
+  NoEmptyReloadTime: 1.5
