@@ -1,4 +1,0 @@
-repository "C.O.V.E.N Alpha 0.0.0@DmitryKitsune@cloud"
-  path "/"
-    br "/main"
-    co "/main"
