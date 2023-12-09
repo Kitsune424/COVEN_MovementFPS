@@ -1,4 +1,5 @@
 using CharacterMovementSystem;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -39,6 +40,7 @@ namespace TitanfallPlayerMovement
         private float wrTimer = 0f;
         private float wallStickTimer = 0f;
 
+        
         [Header("Misc")]
         private bool running;
         private bool jump;
@@ -60,7 +62,6 @@ namespace TitanfallPlayerMovement
         }
         Mode mode = Mode.Flying;
 
-        
 
         void Start()
         {
@@ -307,7 +308,7 @@ namespace TitanfallPlayerMovement
 
             if (crouched && rb.velocity.y > -10 && Input.GetKey(KeyCode.Space))
             {
-                rb.AddForce(Vector3.down * 3f, ForceMode.Acceleration);
+                rb.AddForce(Vector3.down * 1f, ForceMode.Acceleration);
             }
 
             float projVel = Vector3.Dot(new Vector3(rb.velocity.x, 0f, rb.velocity.z), wishDir); // Vector projection of Current velocity onto accelDir.
